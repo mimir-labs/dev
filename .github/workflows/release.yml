@@ -4,20 +4,23 @@ on:
     branches:
       - master
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   release:
     if: github.repository == 'mimir-labs/dev'
     runs-on: ubuntu-latest
     env:
       YARN_ENABLE_SCRIPTS: false
-      GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
     steps:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
-          token: ${{ secrets.GH_PAT }}
 
       - name: Setup Node
         uses: actions/setup-node@v3
