@@ -3,4 +3,4 @@
 "@mimirjs/dev": minor
 ---
 
-initial dev tools
+first commit, initial dev tools
