@@ -1,0 +1,1 @@
+# @mimirjs/lint

@@ -1,0 +1,32 @@
+{
+  "author": "dev.mimir",
+  "bugs": "https://github.com/mimir-labs/dev/issues",
+  "homepage": "https://github.com/mimir-labs/dev#readme",
+  "license": "Apache-2.0",
+  "packageManager": "yarn@4.0.0-rc.42",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mimir-labs/dev.git"
+  },
+  "sideEffects": false,
+  "type": "commonjs",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "mimir-dev-build-ts",
+    "build:extra": "(cd packages/dev && copyfiles config/** scripts/** build)",
+    "changeset": "mimir-exec-changeset",
+    "clean": "mimir-dev-clean-build",
+    "lint": "mimir-dev-run-lint",
+    "postinstall": "./packages/dev/scripts/mimir-dev-yarn-only.mjs",
+    "prettier": "./packages/dev/scripts/mimir-dev-run-prettier.mjs",
+    "test": "yarn build && yarn test:esm && mimir-dev-run-test --coverage",
+    "test:esm": "node ./tester.cjs && node ./tester.mjs"
+  },
+  "devDependencies": {
+    "@mimirjs/dev": "workspace:packages/dev",
+    "copyfiles": "^2.4.1"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "author": "dev.mimir",
+  "bugs": "https://github.com/mimir-labs/dev/issues",
+  "contributors": [],
+  "description": "A collection of shared CI scripts and development environment used by @mimirjs projects",
+  "homepage": "https://github.com/mimir-labs/dev/tree/master/packages/lint#readme",
+  "license": "Apache-2.0",
+  "maintainers": [],
+  "name": "@mimirjs/lint",
+  "publishConfig": {
+    "directory": "build"
+  },
+  "repository": {
+    "directory": "packages/lint",
+    "type": "git",
+    "url": "https://github.com/mimir-labs/dev.git"
+  },
+  "sideEffects": false,
+  "type": "module",
+  "version": "0.0.0",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "glob": "^9.3.0",
+    "parse-imports-ts": "^1.0.3",
+    "throat": "^6.0.2"
+  },
+  "devDependencies": {
+    "@types/glob": "^8.1.0",
+    "@types/jest": "^29.4.2",
+    "react": "^18.2.0"
+  }
+}

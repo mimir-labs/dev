@@ -1,0 +1,14 @@
+{
+  "extends": "@mimirjs/dev/config/tsconfig.json",
+  "compilerOptions": {
+    "composite": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "paths": {
+      "@mimirjs/dev": ["dev/src"],
+      "@mimirjs/dev/*": ["dev/src/*"],
+      "@mimirjs/lint": ["lint/src"],
+      "@mimirjs/lint/*": ["lint/src/*"]
+    }
+  }
+}
