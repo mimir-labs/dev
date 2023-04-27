@@ -26,7 +26,7 @@
     "test:esm": "node ./tester.cjs && node ./tester.mjs"
   },
   "devDependencies": {
-    "@mimirjs/dev": "workspace:packages/dev",
+    "@mimirdev/dev": "workspace:packages/dev",
     "copyfiles": "^2.4.1"
   }
 }

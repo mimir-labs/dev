@@ -10,7 +10,7 @@ const blank = ''.padStart(75);
 
 console.error(`${blank}\n   FATAL: The use of yarn is required, install via npm is not supported.   \n${blank}`);
 console.error(`
-    Technical explanation: All the projects in the @mimirjs' family use
+    Technical explanation: All the projects in the @mimirdev' family use
     yarn workspaces, along with hoisting of dependencies. Currently only
     yarn supports package.json workspaces, hence the limitation.
 

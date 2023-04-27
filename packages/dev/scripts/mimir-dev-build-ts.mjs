@@ -139,9 +139,9 @@ function tweakCjsPaths(buildDir) {
       fs.writeFileSync(
         thisPath,
         fs.readFileSync(thisPath, 'utf8').replace(
-          // require("@mimirjs/$1/$2")
-          /require\("@mimirjs\/([a-z-]*)\/(.*)"\)/g,
-          'require("@mimirjs/$1/cjs/$2")'
+          // require("@mimirdev/$1/$2")
+          /require\("@mimirdev\/([a-z-]*)\/(.*)"\)/g,
+          'require("@mimirdev/$1/cjs/$2")'
         )
       );
     });

@@ -1,1 +1,1 @@
-# @mimirjs/dev
+# @mimirdev/dev

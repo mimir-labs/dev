@@ -115,9 +115,9 @@ module.exports = {
       {
         groups: [
           ['^\u0000'], // all side-effects (0 at start)
-          ['\u0000$', '^@mimirjs.*\u0000$', '^\\..*\u0000$'], // types (0 at end)
-          ['^[^/\\.]'], // non-mimirjs
-          ['^@mimirjs'], // mimirjs
+          ['\u0000$', '^@mimirdev.*\u0000$', '^\\..*\u0000$'], // types (0 at end)
+          ['^[^/\\.]'], // non-mimirdev
+          ['^@mimirdev'], // mimirdev
           ['^\\.\\.(?!/?$)', '^\\.\\./?$', '^\\./(?=.*/)(?!/?$)', '^\\.(?!/?$)', '^\\./?$'] // local (. last)
         ]
       }

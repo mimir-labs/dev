@@ -7,8 +7,8 @@ import fs from 'fs';
 import path from 'path';
 import yargs from 'yargs';
 
-import { lintDependencies } from '@mimirjs/lint';
-import { error, warn } from '@mimirjs/lint/feedback';
+import { lintDependencies } from '@mimirdev/lint';
+import { error, warn } from '@mimirdev/lint/feedback';
 
 const { packages, rootPackage } = getPackagesSync(process.cwd());
 

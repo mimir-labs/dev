@@ -1,7 +1,7 @@
 // Copyright 2023-2023 dev.mimir authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { BlahType } from '@mimirjs/dev/types';
+import type { BlahType } from '@mimirdev/dev/types';
 import type { EchoString } from './types';
 
 import { foo } from './test1/foo';

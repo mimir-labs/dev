@@ -1,1 +1,1 @@
-# @mimirjs/lint
+# @mimirdev/lint

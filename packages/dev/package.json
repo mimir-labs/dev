@@ -2,11 +2,11 @@
   "author": "dev.mimir",
   "bugs": "https://github.com/mimir-labs/dev/issues",
   "contributors": [],
-  "description": "A collection of shared CI scripts and development environment used by @mimirjs projects",
+  "description": "A collection of shared CI scripts and development environment used by @mimirdev projects",
   "homepage": "https://github.com/mimir-labs/dev/tree/master/packages/dev#readme",
   "license": "Apache-2.0",
   "maintainers": [],
-  "name": "@mimirjs/dev",
+  "name": "@mimirdev/dev",
   "publishConfig": {
     "directory": "build"
   },
@@ -59,7 +59,7 @@
     "@changesets/changelog-github": "^0.4.8",
     "@changesets/cli": "^2.26.0",
     "@manypkg/get-packages": "^2.1.0",
-    "@mimirjs/lint": "workspace:^",
+    "@mimirdev/lint": "workspace:^",
     "@rushstack/eslint-patch": "^1.2.0",
     "@typescript-eslint/eslint-plugin": "^5.55.0",
     "@typescript-eslint/parser": "^5.55.0",

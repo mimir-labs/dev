@@ -1,7 +1,7 @@
 // Copyright 2023-2023 dev.mimir authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-const base = require('@mimirjs/dev/config/eslint.cjs');
+const base = require('@mimirdev/dev/config/eslint.cjs');
 
 module.exports = {
   ...base,

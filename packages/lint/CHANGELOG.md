@@ -1,4 +1,4 @@
-# @mimirjs/lint
+# @mimirdev/lint
 
 ## 0.1.0
 

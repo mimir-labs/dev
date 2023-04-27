@@ -2207,9 +2207,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mimirjs/dev@workspace:packages/dev":
+"@mimirdev/dev@workspace:packages/dev":
   version: 0.0.0-use.local
-  resolution: "@mimirjs/dev@workspace:packages/dev"
+  resolution: "@mimirdev/dev@workspace:packages/dev"
   dependencies:
     "@babel/cli": "npm:^7.21.0"
     "@babel/core": "npm:^7.21.3"
@@ -2232,7 +2232,7 @@ __metadata:
     "@changesets/changelog-github": "npm:^0.4.8"
     "@changesets/cli": "npm:^2.26.0"
     "@manypkg/get-packages": "npm:^2.1.0"
-    "@mimirjs/lint": "workspace:^"
+    "@mimirdev/lint": "workspace:^"
     "@rushstack/eslint-patch": "npm:^1.2.0"
     "@types/conventional-changelog": "npm:^3.1.1"
     "@types/conventional-recommended-bump": "npm:^6.1.0"
@@ -2313,9 +2313,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@mimirjs/lint@workspace:^, @mimirjs/lint@workspace:packages/lint":
+"@mimirdev/lint@workspace:^, @mimirdev/lint@workspace:packages/lint":
   version: 0.0.0-use.local
-  resolution: "@mimirjs/lint@workspace:packages/lint"
+  resolution: "@mimirdev/lint@workspace:packages/lint"
   dependencies:
     "@types/glob": "npm:^8.1.0"
     "@types/jest": "npm:^29.4.2"
@@ -11745,7 +11745,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    "@mimirjs/dev": "workspace:packages/dev"
+    "@mimirdev/dev": "workspace:packages/dev"
     copyfiles: "npm:^2.4.1"
   languageName: unknown
   linkType: soft
