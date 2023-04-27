@@ -17,7 +17,7 @@
   },
   "sideEffects": false,
   "type": "module",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "bin": {
     "mimir-ci-ghact-app": "./scripts/mimir-ci-ghact-app.mjs",
     "mimir-ci-ghact-release": "./scripts/mimir-ci-ghact-release.mjs",

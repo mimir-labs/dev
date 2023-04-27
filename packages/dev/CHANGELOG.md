@@ -1,5 +1,16 @@
 # @mimirdev/dev
 
+## 0.2.0
+
+### Minor Changes
+
+- [`d51198d`](https://github.com/mimir-labs/dev/commit/d51198d53638bcff799fc1d8aba287b78b48abc5) Thanks [@devmimir](https://github.com/devmimir)! - change npm org
+
+### Patch Changes
+
+- Updated dependencies [[`d51198d`](https://github.com/mimir-labs/dev/commit/d51198d53638bcff799fc1d8aba287b78b48abc5)]:
+  - @mimirdev/lint@0.2.0
+
 ## 0.1.0
 
 ### Minor Changes
