@@ -1,5 +1,11 @@
 # @mimirdev/dev
 
+## 0.3.0
+
+### Minor Changes
+
+- [`7b1e6c8`](https://github.com/mimir-labs/dev/commit/7b1e6c8db7bdda234137cc7d9849ff7b9ad4e053) Thanks [@jarvandev](https://github.com/jarvandev)! - use custom homepage field in package json
+
 ## 0.2.0
 
 ### Minor Changes
