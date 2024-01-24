@@ -1,4 +1,4 @@
-// Copyright 2023-2023 dev.mimir authors & contributors
+// Copyright 2023-2024 dev.mimir authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
 // ordering here important (at least from a rule maintenance pov)
@@ -70,7 +70,7 @@ module.exports = {
     '@typescript-eslint/type-annotation-spacing': 'error',
     'arrow-parens': ['error', 'always'],
     'default-param-last': [0], // conflicts with TS version (this one doesn't allow TS ?)
-    'header/header': [2, 'line', [' Copyright 2023-2023 dev.mimir authors & contributors', ' SPDX-License-Identifier: Apache-2.0'], 2],
+    'header/header': [2, 'line', [' Copyright 2023-2024 dev.mimir authors & contributors', ' SPDX-License-Identifier: Apache-2.0'], 2],
     'import-newlines/enforce': 'off',
     'multiline-ternary': 'off',
     'jsx-a11y/anchor-is-valid': 'off',
