@@ -1,5 +1,11 @@
 # @mimirdev/lint
 
+## 0.3.0
+
+### Minor Changes
+
+- [`4f4348f`](https://github.com/mimir-labs/dev/commit/4f4348f7ba1ca4312050dc87249e4080d28c42b7) Thanks [@jarvandev](https://github.com/jarvandev)! - build packageInfo.ts and add 2024 headers
+
 ## 0.2.0
 
 ### Minor Changes
