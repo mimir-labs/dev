@@ -1,5 +1,11 @@
 # @mimirdev/dev
 
+## 0.5.0
+
+### Minor Changes
+
+- [#5](https://github.com/mimir-labs/dev/pull/5) [`6a3f5ca`](https://github.com/mimir-labs/dev/commit/6a3f5ca01d1aced03e3255fc16d5e3fc3699166e) Thanks [@jarvandev](https://github.com/jarvandev)! - change generate packageInfo.json header
+
 ## 0.4.0
 
 ### Minor Changes
